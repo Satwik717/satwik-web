@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>National Train Enquiry System Clone</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="train-logo.png" alt="Train Logo">
+			<h1>National Train Enquiry System</h1>
+		</div>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Trains</a></li>
+			<li><a href="#">Stations</a></li>
+			<li><a href="#">Fares</a></li>
+			<li><a href="#">Seat Availability</a></li>
+			<li><a href="#">Cancellation</a></li>
+		</ul>
+	</nav>
+	
+	<section class="content">
+		<h2>Train Search</h2>
+		<form>
+			<label for="trainNumber">Train Number</label>
+			<input type="text" id="trainNumber" name="trainNumber">
+			
+			<label for="sourceStation">Source Station</label>
+			<input type="text" id="sourceStation" name="sourceStation">
+			
+			<label for="destinationStation">Destination Station</label>
+			<input type="text" id="destinationStation" name="destinationStation">
+			
+			<label for="travelDate">Travel Date</label>
+			<input type="date" id="travelDate" name="travelDate">
+			
+			<button type="submit">Search Trains</button>
+		</form>
+	</section>
+	
+	<footer>
+		<p>&copy; 2023 National Train Enquiry System Clone</p>
+	</footer>
+</body>
+</html>
